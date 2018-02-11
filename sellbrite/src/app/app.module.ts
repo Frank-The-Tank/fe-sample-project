@@ -7,14 +7,14 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
-import { ShopItemComponent } from './componets/shop-item/shop-item.component';
 import { ShopItemsListComponent } from './componets/shop-items-list/shop-items-list.component';
+
+import { ShopService } from './app.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShopItemComponent,
     ShopItemsListComponent
   ],
   imports: [
@@ -23,7 +23,7 @@ import { ShopItemsListComponent } from './componets/shop-items-list/shop-items-l
     AngularFireDatabaseModule,
     AngularFireAuthModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ShopService],
+  bootstrap: [AppComponent, ShopItemsListComponent]
 })
 export class AppModule { }

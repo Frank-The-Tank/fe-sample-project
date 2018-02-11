@@ -1,3 +1,12 @@
-<p>
-  shop-items-list works!
-</p>
+<div>
+  <h1>Shop our featured collection</h1>
+  <ul>
+    <li *ngFor="let shopItem of shopItems">
+      <div>
+        <img src="../../../assets/images/{{shopItem.filename}}">
+        <h1>{{shopItem.name}}</h1>
+        <p>{{shopItem.price}}</p>
+      </div>
+    </li>
+  </ul>
+</div>

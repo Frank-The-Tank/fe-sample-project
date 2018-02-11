@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ShopItem } from '../../models/shopItem';
 
 @Component({
   selector: 'app-shop-items-list',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop-items-list.component.css']
 })
 export class ShopItemsListComponent implements OnInit {
+
+  @Input()
+  shopItems: ShopItem[];
 
   constructor() { }
 
