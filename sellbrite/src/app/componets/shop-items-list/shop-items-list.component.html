@@ -1,11 +1,10 @@
 <div>
   <ul class="ulShop">
-    <li class="liShop" *ngFor="let shopItem of shopItems">
-      <div class="shopItem">
-        <img src="../../../assets/images/{{shopItem.filename}}">
-        <h1 class="itemName">{{shopItem.name}}</h1>
-        <p>{{shopItem.price}}</p>
-      </div>
+    <li class="shopItem" *ngFor="let shopItem of shopItems">
+      <img src="../../../assets/images/{{shopItem.filename}}">
+      <h1 class="itemName">{{shopItem.name}}</h1>
+      <p class="itemPrice">{{shopItem.price}}</p>
+      <button class="addToCartBtn btn btn-secondary">Add to Cart</button>
     </li>
   </ul>
 </div>

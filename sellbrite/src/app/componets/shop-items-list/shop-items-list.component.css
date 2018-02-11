@@ -5,18 +5,25 @@
   text-align: center;
 }
 
-.liShop {
-  margin: 0 10px;
-  display: inline;
-}
-
 .shopItem {
   float: left;
-  width: 25%;
-  height: 33%;
+  width: 20%;
+  height: 25%;
   padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px 1px lightgray;
+  border-radius: 10px;
 }
 
 .itemName {
   font-size: 1.5em;
+}
+
+.addToCartBtn {
+  background: none;
+  border: 1px solid lightgray;
+}
+
+.addToCartBtn:hover {
+  background: lightblue;
 }
