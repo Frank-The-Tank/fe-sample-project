@@ -11,6 +11,10 @@ import { ShopItemsListComponent } from './componets/shop-items-list/shop-items-l
 
 import { ShopService } from './app.service';
 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +25,10 @@ import { ShopService } from './app.service';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
+    ModalModule.forRoot()
   ],
   providers: [ShopService],
   bootstrap: [AppComponent, ShopItemsListComponent]

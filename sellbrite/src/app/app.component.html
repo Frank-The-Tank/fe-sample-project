@@ -1,3 +1,7 @@
-<input type="text" placeholder="Search..." (keyup)="search(input.value)" #input>
+<h1>Shop our featured collection</h1>
+<input class="searchBar" type="text" placeholder="Search..." (keyup)="search(input.value)" #input>
 <app-shop-items-list *ngIf="filteredShopItems" [shopItems]="filteredShopItems"></app-shop-items-list>
+
+
+
 
