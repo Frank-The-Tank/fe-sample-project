@@ -1,9 +1,9 @@
 <div>
-  <ul>
-    <li *ngFor="let shopItem of shopItems">
-      <div>
+  <ul class="ulShop">
+    <li class="liShop" *ngFor="let shopItem of shopItems">
+      <div class="shopItem">
         <img src="../../../assets/images/{{shopItem.filename}}">
-        <h1>{{shopItem.name}}</h1>
+        <h1 class="itemName">{{shopItem.name}}</h1>
         <p>{{shopItem.price}}</p>
       </div>
     </li>

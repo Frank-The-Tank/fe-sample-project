@@ -1,1 +1,14 @@
+.headerSection {
+  margin: 10px;
+  width: 75%
+}
 
+.shopSection {
+  margin: 10px;
+}
+
+.searchBar {
+  margin-left: 10px;
+  height: 30px;
+  margin-top: 13px;
+}
