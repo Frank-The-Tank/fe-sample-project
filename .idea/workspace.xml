@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff512172-4049-411a-a4ac-0a81091b515a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/618328744.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/618842634.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/619521178.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/623270836.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/638571516.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/649597850.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/656678076.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/666666252.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/666666466.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/675606742.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sellbrite/src/assets/images/806813490.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/sellbrite/.angular-cli.json" afterPath="$PROJECT_DIR$/sellbrite/.angular-cli.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopItem.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shopItem.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sellbrite/src/app/models/shopItem.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sellbrite/.angular-cli.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -48,6 +69,7 @@
         <option value="$PROJECT_DIR$/sellbrite/src/environments/environment.prod.ts" />
         <option value="$PROJECT_DIR$/sellbrite/src/environments/environment.ts" />
         <option value="$PROJECT_DIR$/sellbrite/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/sellbrite/.angular-cli.json" />
       </list>
     </option>
   </component>
@@ -130,7 +152,15 @@
               <item name="fe-sample-project" type="462c0819:PsiDirectoryNode" />
               <item name="sellbrite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fe-sample-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fe-sample-project" type="462c0819:PsiDirectoryNode" />
+              <item name="sellbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,6 +177,9 @@
     <property name="node.js.selected.package.tslint" value="C:\Users\Frank Garcia\Desktop\fe-sample-project\sellbrite\node_modules\tslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Frank Garcia\Desktop\fe-sample-project\sellbrite\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Frank Garcia\Desktop\fe-sample-project\sellbrite\src\app\componets" />
     </key>
@@ -178,12 +211,12 @@
       <updated>1518324223750</updated>
       <workItem from="1518324225103" duration="357000" />
       <workItem from="1518324731627" duration="363000" />
-      <workItem from="1518363048627" duration="612000" />
+      <workItem from="1518363048627" duration="878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1332000" />
+    <option name="totallyTimeSpent" value="1598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -197,7 +230,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -270,6 +303,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sellbrite/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>
