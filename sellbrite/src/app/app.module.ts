@@ -15,13 +15,15 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { NavbarComponent } from './componets/navbar/navbar.component';
+import { CartComponent } from './componets/cart/cart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ShopItemsListComponent,
-    NavbarComponent
+    NavbarComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

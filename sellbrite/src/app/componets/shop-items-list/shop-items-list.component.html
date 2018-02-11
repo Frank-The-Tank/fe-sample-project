@@ -3,7 +3,7 @@
     <li class="shopItem" *ngFor="let shopItem of shopItems">
       <img src="../../../assets/images/{{shopItem.filename}}">
       <h1 class="itemName">{{shopItem.name}}</h1>
-      <p class="itemPrice">{{shopItem.price}}</p>
+      <p class="itemPrice">{{shopItem.price | currency}}</p>
       <button class="addToCartBtn btn btn-secondary">Add to Cart</button>
     </li>
   </ul>
